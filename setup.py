@@ -32,8 +32,8 @@ setup(
     long_description=readme(),
     long_description_content_type='text/markdown',
     install_requires=[
-        'djangorestframework>=3.3.1',
-        'pandas>=0.19.0',
+        'djangorestframework>=3.10.3',
+        'pandas>=0.25.3',
     ],
     classifiers=[
         'Framework :: Django',
@@ -53,6 +53,7 @@ setup(
         'Framework :: Django :: 1.11',
         'Framework :: Django :: 2.0',
         'Framework :: Django :: 2.1',
+        'Framework :: Django :: 3.0',
         'Topic :: Scientific/Engineering :: Information Analysis',
         'Topic :: Scientific/Engineering :: Visualization',
     ],
